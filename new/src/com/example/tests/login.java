@@ -100,16 +100,23 @@ public class login implements IConstantes{
 	      acceptNextAlert = true;
 	    }
 	  }
-	public static void main(String[] args) throws Exception {
+	 public login()  {
 		// TODO Auto-generated method stub
 		 
            login lo=new login();
-           ResultadoExecucao re= new ResultadoExecucao();
+           try{
+           //ResultadoExecucao re= new ResultadoExecucao();
            //re.reportTestCaseResult1(PROJETO, PLANO, CASO_TESTE1, BUILD, nota, resultado);
+           
            lo.setUp();
            lo.testLogin();
            lo.tearDown();
+		 }
+		 catch(Exception e){
+			 e.printStackTrace();
+		 }
+		 }
 	}
 
-}
+
 

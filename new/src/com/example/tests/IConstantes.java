@@ -6,5 +6,5 @@ public interface IConstantes {
 	final String PROJETO = "testproj1";
 	final String PLANO = "testplan1";
 	final String BUILD = "build1";
-	final String CASO_TESTE1 = "case1";
+	final String CASO_TESTE1 = "test_selenium";
 }
