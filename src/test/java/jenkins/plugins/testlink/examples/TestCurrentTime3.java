@@ -41,6 +41,7 @@ public class TestCurrentTime2
 		Assert.assertNotNull( System.currentTimeMillis() );
 		
 		Assert.assertFalse( System.currentTimeMillis() > 0 );
+		
 	}
 	
 }
